@@ -4,7 +4,7 @@ class MainScheduleCard extends StatelessWidget {
   final String date;
   final String day;
   final String title;
-  final String content;
+  final String detail_date;
   final int priority;
 
   const MainScheduleCard({
@@ -12,7 +12,7 @@ class MainScheduleCard extends StatelessWidget {
     required this.date,
     required this.day,
     required this.title,
-    required this.content,
+    required this.detail_date,
     required this.priority,
   }) : super(key: key);
 
@@ -39,7 +39,7 @@ class MainScheduleCard extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 8),
-                  Text(content),
+                  Text(detail_date),
                 ],
               ),
               duration: Duration(seconds: 2),
@@ -113,7 +113,7 @@ class MainScheduleCard extends StatelessWidget {
                       ),
                       SizedBox(height: 4.0),
                       Text(
-                        content,
+                        detail_date,
                         style: TextStyle(
                           fontSize: 14,
                         ),
