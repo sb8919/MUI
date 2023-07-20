@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../screen/home_screen.dart';
+import '../../screen/haksik_screen.dart';
 
 class BottomNavigationBarWidget extends StatefulWidget {
   @override
@@ -17,7 +18,7 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
     HomeScreen(),
     Text('Screen 2'),
     Text('Screen 3'),
-    Text('Screen 4'),
+    Haksik(),
   ];
 
   void _onItemTapped(int index) {
