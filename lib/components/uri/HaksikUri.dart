@@ -1,0 +1,1 @@
+final SchoolHaksik = "https://www.mokpo.ac.kr/www/275/subview.do";
